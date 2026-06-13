@@ -2,14 +2,15 @@ package models
 
 import "time"
 
-type job struct {
-	Position string    `json:"position_title"`
-	Date     time.Time `json:"time_scraped"`
-	Link     string    `json:"link"`
-	Location string    `json:"location"`
-	Modality string    `json:"work_model"`
-	Company  string    `json:"company"`
-	Season   string    `json:"season"`
-	Salary   string    `json:"salary"`
-	Tags     *string   `json:"tags"`
+// TODO: Secondary locations for further information
+
+type AshbyJob struct {
+	Position       string    `json:"title"`
+	Date           time.Time `json:"publishedAt"`
+	Link           string    `json:"jobURL"`
+	Region         string    `json:"addressRegion"`
+	Country        string    `json:"addressCountry"`
+	Modality       string    `json:"workplaceType"`
+	EmploymentType string    `json:"employmentType"`
+	Description    string    `json:"descriptionHtml"`
 }
