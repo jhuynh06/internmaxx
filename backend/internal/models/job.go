@@ -4,6 +4,10 @@ import "time"
 
 // TODO: Secondary locations for further information
 
+type Job struct {
+	AshbyJob
+}
+
 type AshbyJob struct {
 	Position       string    `json:"title"`
 	Date           time.Time `json:"publishedAt"`

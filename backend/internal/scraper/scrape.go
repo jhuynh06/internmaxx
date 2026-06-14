@@ -6,19 +6,39 @@ import (
 	"io"
 	"log"
 	"net/http"
-
+	"strings"
 	"github.com/jhuynh06/internmaxx/backend/internal/models"
 )
 
+var names = [5]string{"Intern",""}
+
 type ashBy struct {
-	Jobs []models.AshbyJob `json:"jobs"`
+	Jobs []models.Job `json:"jobs"`
 }
 
-func filterInternships ([]models.AshbyJob) ([]models.AshbyJob, error) {
+func containsAny(position string) (bool) {
+	for _, word := range names {
+		if strings.Contains(position, word) {
+			return false
+		}
+	}
 
+	return true
 }
 
-func scrapeAshby(client *http.Client, company string) ([]models.AshbyJob, error){
+// Could convert jobs to a set
+func filterInternships (jobs []models.Job) ([]models.Job) {
+	filteredJobs := []models.Job{}
+	for _, job := range jobs {
+		if  containsAny(job.Position) {
+			filteredJobs = append(filteredJobs, job)
+		}
+	}
+
+	return filteredJobs
+}
+
+func scrapeAshby(client *http.Client, company string) ([]models.Job, error){
 	req, err := http.NewRequest("GET", fmt.Sprintf("https://api.ashbyhq.com/posting-api/job-board/%s?includeCompensation=true", company),nil)
 	if err != nil {
 		return nil, err
@@ -31,5 +51,5 @@ func scrapeAshby(client *http.Client, company string) ([]models.AshbyJob, error)
 		return nil, err
 	}
 
-	return query.Jobs, nil
+	return filterInternships(query.Jobs), nil
 }
