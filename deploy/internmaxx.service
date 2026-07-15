@@ -1,0 +1,30 @@
+# systemd unit for any Linux VM — DigitalOcean Droplet, Azure B1s, etc.
+# The app is one static binary + one SQLite file, so the provider doesn't
+# matter; see deploy/README.md for DO setup and migration.
+# Install:
+#   sudo cp deploy/internmaxx.service /etc/systemd/system/
+#   sudo mkdir -p /opt/internmaxx && sudo cp internmaxx companies.yaml /opt/internmaxx/
+#   sudo cp backend/.env.example /opt/internmaxx/.env   # then edit in real secrets
+#   sudo systemctl daemon-reload && sudo systemctl enable --now internmaxx
+#   journalctl -u internmaxx -f
+[Unit]
+Description=internmaxx internship alert daemon
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/internmaxx
+EnvironmentFile=/opt/internmaxx/.env
+ExecStart=/opt/internmaxx/internmaxx --companies /opt/internmaxx/companies.yaml
+Restart=always
+RestartSec=5
+# Basic hardening.
+NoNewPrivileges=true
+ProtectSystem=strict
+ReadWritePaths=/opt/internmaxx
+ProtectHome=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,279 @@
+# Format: Company Name|slug1,slug2,...
+# AI labs & infra
+OpenAI|openai
+Anthropic|anthropic
+xAI|xai
+Mistral AI|mistral,mistralai
+Cohere|cohere
+Perplexity|perplexity,perplexity-ai
+Scale AI|scaleai,scale
+Together AI|together,togetherai,together-ai
+Groq|groq
+Cerebras|cerebras,cerebras-systems
+SambaNova|sambanova,sambanovasystems
+Anyscale|anyscale
+Weights & Biases|wandb
+Hugging Face|huggingface
+Runway|runway,runwayml
+Stability AI|stability,stabilityai
+Character AI|character,characterai
+Cognition|cognition,cognition-ai
+Harvey|harvey
+Glean|glean
+Sierra|sierra
+Decagon|decagon
+Writer|writer
+Suno|suno
+ElevenLabs|elevenlabs
+Luma AI|luma,lumalabs
+Ideogram|ideogram
+Black Forest Labs|blackforestlabs,black-forest-labs
+Fal|fal
+Baseten|baseten
+Modal|modal,modallabs
+Replicate|replicate
+Fireworks AI|fireworks,fireworksai
+Lambda|lambda,lambdalabs
+CoreWeave|coreweave
+Crusoe|crusoe
+Databricks|databricks
+Snowflake|snowflake,snowflakecomputing
+Pinecone|pinecone,hypercube
+LangChain|langchain
+Browserbase|browserbase
+Contextual AI|contextualai,contextual-ai
+AI21 Labs|ai21,ai21labs
+Liquid AI|liquidai,liquid-ai
+Reka|reka,reka-ai
+Magic|magic
+Imbue|imbue
+Physical Intelligence|physicalintelligence,physical-intelligence
+World Labs|worldlabs,world-labs
+Figure|figure,figureai
+1X Technologies|1x,1x-technologies
+Apptronik|apptronik
+Skild AI|skild,skildai
+OpenEvidence|openevidence
+Abridge|abridge
+Thinking Machines|thinkingmachines,thinking-machines-lab
+Safe Superintelligence|ssi,safesuperintelligence
+Midjourney|midjourney
+Notion|notion
+Cursor|cursor,anysphere
+Windsurf|windsurf,codeium,exafunction
+# Quant & trading
+Jane Street|janestreet
+Citadel|citadel
+Two Sigma|twosigma
+Hudson River Trading|hudsonrivertrading,wehrtyou
+Jump Trading|jumptrading
+DRW|drw
+IMC Trading|imc,imctrading
+Optiver|optiver,optiverus
+SIG|sig,susquehanna
+Five Rings|fiverings,fiveringsllc
+Tower Research|towerresearchcapital,tower-research-capital
+Virtu Financial|virtu,virtufinancial
+Akuna Capital|akunacapital,akuna
+Old Mission|oldmissioncapital,oldmission
+Chicago Trading Company|chicagotradingcompany,ctc
+Belvedere Trading|belvederetrading
+Wolverine Trading|wolverinetrading,wolverine
+PEAK6|peak6
+Aquatic Capital|aquatic,aquaticcapital
+Headlands Tech|headlands,headlandstech
+XTX Markets|xtxmarkets,xtx
+Squarepoint|squarepoint,squarepointcapital
+G-Research|gresearch,g-research
+PDT Partners|pdtpartners,pdt
+AQR|aqr,aqrcapital
+Bridgewater|bridgewater,bridgewaterassociates
+WorldQuant|worldquant
+Balyasny|balyasny,bamfunds
+Millennium|millennium,mlp
+Point72|point72
+DE Shaw|deshaw
+Voleon|voleon,theVoleonGroup
+Voloridge|voloridge
+Radix Trading|radix,radixtrading
+GTS|gts,gtsx
+Flow Traders|flowtraders
+Valkyrie Trading|valkyrietrading,valkyrie
+Geneva Trading|genevatrading
+DV Trading|dvtrading
+Group One|groupone,grouponetrading
+TransMarket|transmarketgroup,tmg
+3Red Partners|3red,3redpartners
+Seven Eight Capital|seveneightcapital
+Cubist|cubist,cubistsystematic
+Schonfeld|schonfeld
+ExodusPoint|exoduspoint
+Verition|verition
+Walleye|walleye,walleyecapital
+Marshall Wace|marshallwace
+Man Group|mangroup
+# Fintech & crypto
+Stripe|stripe
+Coinbase|coinbase
+Robinhood|robinhood
+Plaid|plaid
+Brex|brex
+Ramp|ramp
+Chime|chime,chimecard
+Affirm|affirm
+SoFi|sofi
+Carta|carta
+Navan|navan,tripactions
+Mercury|mercury
+Kraken|kraken,krakenfx
+Gemini|gemini
+Circle|circle
+Ripple|ripple
+Fireblocks|fireblocks
+Alchemy|alchemy
+Uniswap Labs|uniswap,uniswaplabs
+Paradigm|paradigm,paradigmxyz
+Anchorage Digital|anchorage,anchoragedigital
+Chainalysis|chainalysis
+Addepar|addepar
+Betterment|betterment
+Wealthfront|wealthfront
+Marqeta|marqeta
+Modern Treasury|moderntreasury,modern-treasury
+Unit|unit
+Lithic|lithic
+Adyen|adyen
+Klarna|klarna
+Nubank|nubank
+Bilt|bilt,biltrewards
+# Big tech & major software
+Airbnb|airbnb
+Uber|uber
+Lyft|lyft
+DoorDash|doordash,doordashusa
+Instacart|instacart
+Pinterest|pinterest,pinterestjobadvertisements
+Reddit|reddit
+Snap|snap,snapchat
+Discord|discord
+Twitch|twitch
+Dropbox|dropbox
+Box|box
+Figma|figma
+Canva|canva
+Atlassian|atlassian
+GitHub|github
+GitLab|gitlab
+Twilio|twilio
+Datadog|datadog,datadoghq
+MongoDB|mongodb
+Elastic|elastic
+HashiCorp|hashicorp
+Cloudflare|cloudflare
+Fastly|fastly
+Vercel|vercel
+Netlify|netlify
+Okta|okta
+Auth0|auth0
+Zscaler|zscaler
+CrowdStrike|crowdstrike
+SentinelOne|sentinelone,sentinellabs
+Palo Alto Networks|paloaltonetworks,PaloAltoNetworks
+Wiz|wiz
+Snyk|snyk
+Rubrik|rubrik
+Cohesity|cohesity
+Nutanix|nutanix
+Pure Storage|purestorage
+Samsara|samsara
+Verkada|verkada
+Rippling|rippling
+Gusto|gusto
+Asana|asana
+Airtable|airtable
+Miro|miro,realtimeboard
+Grammarly|grammarly
+Duolingo|duolingo
+Squarespace|squarespace
+Wix|wix
+Shopify|shopify
+Toast|toast,toasttab
+Block|block,square
+ServiceNow|servicenow,ServiceNow
+Visa|visa,Visa
+Salesforce|salesforce
+Adobe|adobe
+Intuit|intuit
+Workday|workday
+Splunk|splunk
+Palantir|palantir
+Benchling|benchling
+Retool|retool
+Linear|linear
+Deel|deel
+Replit|replit
+Supabase|supabase
+PostHog|posthog
+Temporal|temporal,temporaltechnologies
+Tailscale|tailscale
+Zip|zip,ziphq
+Whatnot|whatnot
+Faire|faire
+Flexport|flexport
+Attentive|attentive,attentivemobile
+Roblox|roblox
+Unity|unity,unity3d
+Epic Games|epicgames,epic-games
+Riot Games|riotgames,riot-games
+Electronic Arts|ea,electronicarts
+Take-Two|taketwo,take2games
+Rockstar Games|rockstargames
+Zynga|zynga
+Niantic|niantic
+Spotify|spotify
+Sonos|sonos
+Roku|roku
+Vimeo|vimeo
+The New York Times|thenewyorktimes,nytimes
+Dow Jones|dowjones
+Axios|axios
+Vox Media|voxmedia
+# Autonomy, aerospace, defense, robotics
+SpaceX|spacex
+Blue Origin|blueorigin
+Rocket Lab|rocketlab,rocketlabusa
+Relativity Space|relativity,relativityspace
+Firefly Aerospace|firefly,fireflyaerospace
+Stoke Space|stokespace,stoke-space
+Astranis|astranis
+Varda|varda,vardaspace
+Sierra Space|sierraspace
+Axiom Space|axiomspace
+Anduril|anduril,andurilindustries
+Shield AI|shieldai,shield-ai
+Skydio|skydio
+Saronic|saronic,saronictechnologies
+Castelion|castelion
+Epirus|epirus
+Hadrian|hadrian
+Hermeus|hermeus
+Boom Supersonic|boom,boomsupersonic
+Zipline|zipline,flyzipline
+Waymo|waymo
+Zoox|zoox
+Nuro|nuro
+Aurora|aurora,aurorainnovation
+Applied Intuition|appliedintuition,applied-intuition
+Kodiak Robotics|kodiak,kodiakrobotics
+Luminar|luminar,luminartech
+Neuralink|neuralink
+Boston Dynamics|bostondynamics
+Anthropic dup|skipme
+# Health & bio tech
+Tempus|tempus,tempuslabs
+Color|color,colorgenomics
+Oscar Health|oscar,oscarhealth,hioscar
+Ro|ro
+Cedar|cedar
+Komodo Health|komodohealth
+Viz.ai|vizai,viz

@@ -1,0 +1,331 @@
+=== GREENHOUSE (board name | live jobs) ===
+gh|3redpartners|3Red Partners|5
+gh|adyen|Adyen|213
+gh|affirm|Affirm|176
+gh|airbnb|Airbnb|211
+gh|airtable|Airtable|37
+gh|akunacapital|Akuna Capital|29
+gh|andurilindustries|Anduril Industries|2164
+gh|anthropic|Anthropic|404
+gh|apptronik|Apptronik|97
+gh|aqr|AQR|50
+gh|asana|Asana|144
+gh|astranis|Astranis|91
+gh|attentive|Attentive|45
+gh|aurorainnovation|Aurora Innovation|143
+gh|axios|Axios|22
+gh|betterment|Betterment|36
+gh|blackforestlabs|Black Forest Labs|15
+gh|block|Block|210
+gh|brex|Brex|262
+gh|carta|Carta|50
+gh|chime|Chime Financial, Inc|67
+gh|cloudflare|Cloudflare|236
+gh|coinbase|Coinbase|133
+gh|contextualai|Contextual AI|0
+gh|coreweave|CoreWeave|276
+gh|databricks|Databricks|786
+gh|datadog|Datadog|418
+gh|discord|Discord|58
+gh|doordashusa|DoorDash USA|451
+gh|dropbox|Dropbox|41
+gh|duolingo|Duolingo|65
+gh|dvtrading|DV Trading|64
+gh|elastic|Elastic|190
+gh|epicgames|Epic Games|127
+gh|epirus|Epirus|40
+gh|exoduspoint|ExodusPoint|2
+gh|faire|Faire|75
+gh|fal|fal|38
+gh|fastly|Fastly|51
+gh|figma|Figma|168
+gh|figure|Figure Lending|23
+gh|figureai|Figure|112
+gh|fireblocks|Fireblocks|56
+gh|fireworksai|Fireworks AI|36
+gh|fiveringsllc|Five Rings LLC - Careers|11
+gh|flexport|Flexport|140
+gh|flowtraders|Flow Traders|35
+gh|flyzipline|Zipline |14
+gh|gemini|Gemini|29
+gh|genevatrading|Geneva Trading|14
+gh|gitlab|GitLab|144
+gh|gusto|Gusto, Inc.|77
+gh|imbue|Imbue|3
+gh|imc|IMC|158
+gh|instacart|Instacart|152
+gh|janestreet|Jane Street|217
+gh|jumptrading|Jump Trading|79
+gh|kodiak|Kodiak|69
+gh|komodohealth|Komodo Health|41
+gh|lithic|Lithic|9
+gh|lyft|Lyft|157
+gh|magic|Magic|0
+gh|mangroup|Man Group|64
+gh|marqeta|Marqeta|37
+gh|marshallwace|Marshall Wace|2
+gh|mercury|Mercury|57
+gh|mongodb|MongoDB|394
+gh|netlify|Netlify|4
+gh|neuralink|Neuralink|76
+gh|nubank|Nubank|105
+gh|nuro|Nuro|93
+gh|okta|Okta|354
+gh|oldmissioncapital|Old Mission|29
+gh|optiver|Optiver|0
+gh|optiverus|Optiver |193
+gh|oscar|Oscar Health|255
+gh|paradigm|Paradigm|1
+gh|pdtpartners|PDT Partners|13
+gh|pinterest|Pinterest|191
+gh|pinterestjobadvertisements|Pinterest Job Advertisements|0
+gh|point72|Point72 |242
+gh|purestorage|Everpure|332
+gh|reddit|Reddit|178
+gh|relativity|Relativity Space|336
+gh|riotgames|Riot Games|162
+gh|ripple|Ripple |152
+gh|robinhood|Robinhood|120
+gh|roblox|Roblox|232
+gh|rocketlab|Rocket Lab Corporation|363
+gh|rockstargames|Rockstar Games|75
+gh|roku|Roku|223
+gh|rubrik|Rubrik Job Board|98
+gh|sambanovasystems|SambaNova Systems|23
+gh|samsara|Samsara|326
+gh|scaleai|Scale AI|183
+gh|schonfeld|Schonfeld |53
+gh|sentinellabs|SentinelOne|207
+gh|sofi|SoFi|72
+gh|spacex|SpaceX|1859
+gh|squarepointcapital|Squarepoint Capital|80
+gh|squarespace|Squarespace|17
+gh|stabilityai|Stability AI|1
+gh|stripe|Stripe|502
+gh|tailscale|Tailscale|46
+gh|taketwo|Take-Two Interactive Software, Inc.|29
+gh|temporaltechnologies|Temporal Technologies|54
+gh|thenewyorktimes|The New York Times|163
+gh|thinkingmachines|Thinking Machines Lab|34
+gh|toast|Toast|295
+gh|togetherai|Together AI|60
+gh|towerresearchcapital|Tower Research Capital|77
+gh|transmarketgroup|TransMarket Group|15
+gh|tripactions|Navan|185
+gh|twilio|Twilio|155
+gh|twitch|Twitch|61
+gh|vardaspace|Varda Space Industries|97
+gh|vercel|Vercel|67
+gh|verkada|Verkada|294
+gh|virtu|Virtu Financial|36
+gh|voxmedia|Vox Media Group|10
+gh|walleyecapital|Walleye Capital Referral Portal|0
+gh|waymo|Waymo|374
+gh|wehrtyou|Hudson River Trading|73
+gh|worldlabs|World Labs|13
+gh|worldquant|WorldQuant|103
+gh|xai|xAI|214
+gh|zscaler|Zscaler|334
+=== ASHBY (live jobs) ===
+ashby|1x|67
+ashby|abridge|44
+ashby|airtable|0
+ashby|alchemy|17
+ashby|anyscale|15
+ashby|aquatic|0
+ashby|attentivemobile|0
+ashby|baseten|73
+ashby|benchling|52
+ashby|black-forest-labs|15
+ashby|boom|12
+ashby|browserbase|6
+ashby|cedar|3
+ashby|cerebras|92
+ashby|character|17
+ashby|cognition|75
+ashby|cohere|130
+ashby|crusoe|344
+ashby|cubist|1
+ashby|cursor|113
+ashby|decagon|113
+ashby|deel|0
+ashby|elevenlabs|165
+ashby|figure|0
+ashby|fireworksai|36
+ashby|harvey|333
+ashby|ideogram|5
+ashby|kraken|0
+ashby|lambda|32
+ashby|langchain|98
+ashby|linear|24
+ashby|liquid-ai|18
+ashby|marqeta|0
+ashby|mercury|0
+ashby|midjourney|10
+ashby|miro|36
+ashby|modal|33
+ashby|moderntreasury|8
+ashby|niantic|0
+ashby|notion|145
+ashby|nubank|109
+ashby|openai|710
+ashby|openevidence|11
+ashby|paradigm|4
+ashby|perplexity|79
+ashby|physicalintelligence|25
+ashby|pinecone|3
+ashby|plaid|106
+ashby|posthog|19
+ashby|purestorage|0
+ashby|ramp|128
+ashby|reddit|0
+ashby|reka|7
+ashby|replit|97
+ashby|runway|4
+ashby|saronic|275
+ashby|shield-ai|0
+ashby|sierra|158
+ashby|skydio|113
+ashby|snowflake|418
+ashby|snyk|0
+ashby|ssi|0
+ashby|suno|58
+ashby|supabase|51
+ashby|temporal|54
+ashby|thinking-machines-lab|0
+ashby|tripactions|0
+ashby|uniswap|10
+ashby|unit|8
+ashby|vercel|0
+ashby|verkada|0
+ashby|voleon|55
+ashby|wiz|0
+ashby|writer|49
+ashby|zip|128
+=== LEVER (live jobs) ===
+lever|anchorage|42
+lever|anyscale|1
+lever|atlassian|0
+lever|belvederetrading|9
+lever|blueorigin|0
+lever|color|0
+lever|hermeus|106
+lever|imbue|0
+lever|kraken|0
+lever|mistral|170
+lever|palantir|270
+lever|plaid|0
+lever|ro|54
+lever|saronic|0
+lever|shieldai|406
+lever|spotify|104
+lever|valkyrietrading|4
+lever|voleon|0
+lever|wealthfront|12
+lever|zoox|217
+=== SMARTRECRUITERS (company name | totalFound) — only cos with no gh/ashby/lever hit ===
+sr|Addepar|addepar|0|?
+sr|Adobe|adobe|0|?
+sr|AI21 Labs|ai21|0|?
+sr|AI21 Labs|ai21labs|0|?
+sr|Applied Intuition|applied-intuition|0|?
+sr|Applied Intuition|appliedintuition|0|?
+sr|Auth0|auth0|0|?
+sr|Axiom Space|axiomspace|0|?
+sr|Balyasny|balyasny|0|?
+sr|Balyasny|bamfunds|0|?
+sr|Bilt|bilt|0|?
+sr|Bilt|biltrewards|0|?
+sr|Boston Dynamics|bostondynamics|0|?
+sr|Box|box|0|?
+sr|Bridgewater|bridgewater|0|?
+sr|Bridgewater|bridgewaterassociates|0|?
+sr|Canva|canva|212|Canva
+sr|Castelion|castelion|0|?
+sr|Chainalysis|chainalysis|0|?
+sr|Chicago Trading Company|chicagotradingcompany|0|?
+sr|Chicago Trading Company|ctc|0|?
+sr|Circle|circle|0|?
+sr|Citadel|citadel|0|?
+sr|Cohesity|cohesity|0|?
+sr|CrowdStrike|crowdstrike|0|?
+sr|DE Shaw|deshaw|0|?
+sr|Dow Jones|dowjones|0|?
+sr|DRW|drw|0|?
+sr|Electronic Arts|ea|0|?
+sr|Electronic Arts|electronicarts|0|?
+sr|Firefly Aerospace|firefly|0|?
+sr|Firefly Aerospace|fireflyaerospace|0|?
+sr|G-Research|g-research|0|?
+sr|G-Research|gresearch|0|?
+sr|GitHub|github|0|?
+sr|Glean|glean|1|Glean
+sr|Grammarly|grammarly|0|?
+sr|Groq|groq|0|?
+sr|Group One|groupone|0|?
+sr|Group One|grouponetrading|0|?
+sr|GTS|gts|0|?
+sr|GTS|gtsx|0|?
+sr|Hadrian|hadrian|0|?
+sr|HashiCorp|hashicorp|0|?
+sr|Headlands Tech|headlands|0|?
+sr|Headlands Tech|headlandstech|0|?
+sr|Hugging Face|huggingface|0|?
+sr|Intuit|intuit|0|?
+sr|Klarna|klarna|0|?
+sr|Luma AI|luma|0|?
+sr|Luma AI|lumalabs|0|?
+sr|Luminar|luminar|0|?
+sr|Luminar|luminartech|0|?
+sr|Millennium|millennium|0|?
+sr|Millennium|mlp|0|?
+sr|Nutanix|nutanix|0|?
+sr|Palo Alto Networks|paloaltonetworks|0|?
+sr|Palo Alto Networks|PaloAltoNetworks|0|?
+sr|PEAK6|peak6|0|?
+sr|Radix Trading|radix|0|?
+sr|Radix Trading|radixtrading|0|?
+sr|Replicate|replicate|0|?
+sr|Retool|retool|0|?
+sr|Rippling|rippling|0|?
+sr|Salesforce|salesforce|0|?
+sr|ServiceNow|servicenow|412|ServiceNow
+sr|ServiceNow|ServiceNow|412|ServiceNow
+sr|Seven Eight Capital|seveneightcapital|0|?
+sr|Shopify|shopify|0|?
+sr|Sierra Space|sierraspace|0|?
+sr|SIG|sig|0|?
+sr|SIG|susquehanna|0|?
+sr|Skild AI|skild|0|?
+sr|Skild AI|skildai|0|?
+sr|Snap|snap|0|?
+sr|Snap|snapchat|0|?
+sr|Sonos|sonos|0|?
+sr|Splunk|splunk|0|?
+sr|Stoke Space|stoke-space|0|?
+sr|Stoke Space|stokespace|0|?
+sr|Tempus|tempus|0|?
+sr|Tempus|tempuslabs|0|?
+sr|Two Sigma|twosigma|0|?
+sr|Uber|uber|1|Uber
+sr|Unity|unity|0|?
+sr|Unity|unity3d|0|?
+sr|Verition|verition|0|?
+sr|Vimeo|vimeo|0|?
+sr|Visa|visa|2|Visa
+sr|Visa|Visa|2|Visa
+sr|Viz.ai|viz|0|?
+sr|Viz.ai|vizai|0|?
+sr|Voloridge|voloridge|0|?
+sr|Weights & Biases|wandb|0|?
+sr|Whatnot|whatnot|0|?
+sr|Windsurf|codeium|0|?
+sr|Windsurf|exafunction|0|?
+sr|Windsurf|windsurf|0|?
+sr|Wix|wix|0|?
+sr|Wolverine Trading|wolverine|0|?
+sr|Wolverine Trading|wolverinetrading|0|?
+sr|Workday|workday|0|?
+sr|XTX Markets|xtx|0|?
+sr|XTX Markets|xtxmarkets|0|?
+sr|Zynga|zynga|0|?
