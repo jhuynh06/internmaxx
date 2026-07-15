@@ -1,0 +1,22 @@
+# secrets & local config
+.env
+*.env
+!*.env.example
+
+# deploy target (holds your VM's IP — keep local)
+deploy/.host
+
+# sqlite database + wal/shm
+*.db
+*.db-wal
+*.db-shm
+
+# built binaries
+/backend/internmaxx
+/backend/scrape-once
+/backend/verify
+/bin/
+imx
+
+# os / editor
+.DS_Store

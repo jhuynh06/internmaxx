@@ -1,0 +1,290 @@
+# Company registry — every entry verified live against the public ATS API on 2026-07-08.
+# tier 1 = poll every ~5 min, tier 2 = ~15 min, tier 3 = hourly (see PLAN.md §2).
+# group = category for run scoping (--groups ai,quant): ai, quant, fintech, software,
+#         entertainment, aero, health, chips, banks, consulting. Custom alias groups can be
+#         defined below and used the same way, e.g. `internmaxx --groups dream`.
+# Re-verify with cmd/verify (PLAN.md M1); companies migrate ATSes constantly.
+
+# Alias groups (slug lists) — edit freely per season:
+# groups:
+#   dream: [openai, anthropic, janestreet, figma, ramp, cursor]
+
+# ── AI labs & AI infra ──────────────────────────────────────────────
+- {name: OpenAI,                ats: ashby,      slug: openai,                 tier: 1, group: ai}
+- {name: Anthropic,             ats: greenhouse, slug: anthropic,              tier: 1, group: ai}
+- {name: xAI,                   ats: greenhouse, slug: xai,                    tier: 1, group: ai}
+- {name: Mistral AI,            ats: lever,      slug: mistral,                tier: 1, group: ai}
+- {name: Cohere,                ats: ashby,      slug: cohere,                 tier: 1, group: ai}
+- {name: Perplexity,            ats: ashby,      slug: perplexity,             tier: 1, group: ai}
+- {name: Cursor (Anysphere),    ats: ashby,      slug: cursor,                 tier: 1, group: ai}
+- {name: Cognition (Devin/Windsurf), ats: ashby, slug: cognition,              tier: 1, group: ai}
+- {name: Thinking Machines Lab, ats: greenhouse, slug: thinkingmachines,       tier: 1, group: ai}
+- {name: Safe Superintelligence, ats: ashby,     slug: ssi,                    tier: 1, group: ai}  # board live, 0 postings today
+- {name: Scale AI,              ats: greenhouse, slug: scaleai,                tier: 1, group: ai}
+- {name: Together AI,           ats: greenhouse, slug: togetherai,             tier: 1, group: ai}
+- {name: CoreWeave,             ats: greenhouse, slug: coreweave,              tier: 1, group: ai}
+- {name: Cerebras,              ats: ashby,      slug: cerebras,               tier: 1, group: ai}
+- {name: ElevenLabs,            ats: ashby,      slug: elevenlabs,             tier: 1, group: ai}
+- {name: Harvey,                ats: ashby,      slug: harvey,                 tier: 1, group: ai}
+- {name: Sierra,                ats: ashby,      slug: sierra,                 tier: 1, group: ai}
+- {name: SambaNova,             ats: greenhouse, slug: sambanovasystems,       tier: 2, group: ai}
+- {name: Lambda,                ats: ashby,      slug: lambda,                 tier: 2, group: ai}
+- {name: Crusoe,                ats: ashby,      slug: crusoe,                 tier: 2, group: ai}
+- {name: Baseten,               ats: ashby,      slug: baseten,                tier: 2, group: ai}
+- {name: Modal,                 ats: ashby,      slug: modal,                  tier: 2, group: ai}
+- {name: Fireworks AI,          ats: greenhouse, slug: fireworksai,            tier: 2, group: ai}
+- {name: LangChain,             ats: ashby,      slug: langchain,              tier: 2, group: ai}
+- {name: Browserbase,           ats: ashby,      slug: browserbase,            tier: 2, group: ai}
+- {name: Decagon,               ats: ashby,      slug: decagon,                tier: 2, group: ai}
+- {name: Writer,                ats: ashby,      slug: writer,                 tier: 2, group: ai}
+- {name: Character AI,          ats: ashby,      slug: character,              tier: 2, group: ai}
+- {name: Black Forest Labs,     ats: greenhouse, slug: blackforestlabs,        tier: 2, group: ai}
+- {name: Runway,                ats: ashby,      slug: runway,                 tier: 2, group: ai}
+- {name: Suno,                  ats: ashby,      slug: suno,                   tier: 2, group: ai}
+- {name: Midjourney,            ats: ashby,      slug: midjourney,             tier: 2, group: ai}
+- {name: Luma-adjacent Ideogram, ats: ashby,     slug: ideogram,               tier: 3, group: ai}
+- {name: Physical Intelligence, ats: ashby,      slug: physicalintelligence,   tier: 2, group: ai}
+- {name: World Labs,            ats: greenhouse, slug: worldlabs,              tier: 2, group: ai}
+- {name: Figure (robotics),     ats: greenhouse, slug: figureai,               tier: 2, group: ai}  # NOT "figure" (that's Figure Lending)
+- {name: 1X Technologies,       ats: ashby,      slug: 1x,                     tier: 2, group: ai}
+- {name: Apptronik,             ats: greenhouse, slug: apptronik,              tier: 2, group: ai}
+- {name: Anyscale,              ats: ashby,      slug: anyscale,               tier: 2, group: ai}
+- {name: Pinecone,              ats: ashby,      slug: pinecone,               tier: 3, group: ai}
+- {name: Reka,                  ats: ashby,      slug: reka,                   tier: 3, group: ai}
+- {name: Liquid AI,             ats: ashby,      slug: liquid-ai,              tier: 3, group: ai}
+- {name: Stability AI,          ats: greenhouse, slug: stabilityai,            tier: 3, group: ai}
+- {name: Imbue,                 ats: greenhouse, slug: imbue,                  tier: 3, group: ai}
+- {name: Contextual AI,         ats: greenhouse, slug: contextualai,           tier: 3, group: ai}  # 0 postings today
+- {name: OpenEvidence,          ats: ashby,      slug: openevidence,           tier: 2, group: ai}
+- {name: Abridge,               ats: ashby,      slug: abridge,                tier: 2, group: ai}
+
+# ── Quant & trading (public boards) ─────────────────────────────────
+- {name: Jane Street,           ats: greenhouse, slug: janestreet,             tier: 1, group: quant}
+- {name: Hudson River Trading,  ats: greenhouse, slug: wehrtyou,               tier: 1, group: quant}
+- {name: Jump Trading,          ats: greenhouse, slug: jumptrading,            tier: 1, group: quant}
+- {name: IMC Trading,           ats: greenhouse, slug: imc,                    tier: 1, group: quant}
+- {name: Optiver US,            ats: greenhouse, slug: optiverus,              tier: 1, group: quant}  # NOT "optiver" (empty board)
+- {name: Point72 / Cubist,      ats: greenhouse, slug: point72,                tier: 1, group: quant}
+- {name: Cubist (Ashby board),  ats: ashby,      slug: cubist,                 tier: 3, group: quant}
+- {name: Akuna Capital,         ats: greenhouse, slug: akunacapital,           tier: 2, group: quant}
+- {name: Five Rings,            ats: greenhouse, slug: fiveringsllc,           tier: 2, group: quant}
+- {name: Tower Research,        ats: greenhouse, slug: towerresearchcapital,   tier: 2, group: quant}
+- {name: Virtu Financial,       ats: greenhouse, slug: virtu,                  tier: 2, group: quant}
+- {name: Flow Traders,          ats: greenhouse, slug: flowtraders,            tier: 2, group: quant}
+- {name: Old Mission,           ats: greenhouse, slug: oldmissioncapital,      tier: 2, group: quant}
+- {name: Belvedere Trading,     ats: lever,      slug: belvederetrading,       tier: 3, group: quant}
+- {name: Valkyrie Trading,      ats: lever,      slug: valkyrietrading,        tier: 3, group: quant}
+- {name: DV Trading,            ats: greenhouse, slug: dvtrading,              tier: 3, group: quant}
+- {name: Geneva Trading,        ats: greenhouse, slug: genevatrading,          tier: 3, group: quant}
+- {name: TransMarket Group,     ats: greenhouse, slug: transmarketgroup,       tier: 3, group: quant}
+- {name: 3Red Partners,         ats: greenhouse, slug: 3redpartners,           tier: 3, group: quant}
+- {name: PDT Partners,          ats: greenhouse, slug: pdtpartners,            tier: 2, group: quant}
+- {name: AQR,                   ats: greenhouse, slug: aqr,                    tier: 2, group: quant}
+- {name: WorldQuant,            ats: greenhouse, slug: worldquant,             tier: 2, group: quant}
+- {name: Man Group,             ats: greenhouse, slug: mangroup,               tier: 3, group: quant}
+- {name: Marshall Wace,         ats: greenhouse, slug: marshallwace,           tier: 3, group: quant}
+- {name: Squarepoint,           ats: greenhouse, slug: squarepointcapital,     tier: 2, group: quant}
+- {name: Schonfeld,             ats: greenhouse, slug: schonfeld,              tier: 3, group: quant}
+- {name: ExodusPoint,           ats: greenhouse, slug: exoduspoint,            tier: 3, group: quant}
+- {name: Voleon,                ats: ashby,      slug: voleon,                 tier: 2, group: quant}
+- {name: DRW,                   ats: greenhouse, slug: drweng,                 tier: 2, group: quant}
+- {name: SIG (Susquehanna),     ats: sig,        slug: sig,                    tier: 2, group: quant}
+- {name: D. E. Shaw,            ats: deshaw,     slug: deshaw,                 tier: 2, group: quant}
+- {name: Two Sigma,             ats: twosigma,   slug: twosigma,               tier: 2, group: quant}
+- {name: Citadel,               ats: citadel,    slug: citadel,                tier: 1, group: quant}
+- {name: Citadel Securities,    ats: citadel,    slug: citadelsecurities,      tier: 1, group: quant}
+- {name: Millennium,            ats: eightfold,  slug: millennium,             tier: 2, group: quant, eightfold: {host: mlp.eightfold.ai, domain: mlp.com}}
+
+# ── Fintech & crypto ────────────────────────────────────────────────
+- {name: Stripe,                ats: greenhouse, slug: stripe,                 tier: 1, group: fintech}
+- {name: Ramp,                  ats: ashby,      slug: ramp,                   tier: 1, group: fintech}
+- {name: Plaid,                 ats: ashby,      slug: plaid,                  tier: 1, group: fintech}
+- {name: Coinbase,              ats: greenhouse, slug: coinbase,               tier: 1, group: fintech}
+- {name: Robinhood,             ats: greenhouse, slug: robinhood,              tier: 1, group: fintech}
+- {name: Block (Square),        ats: greenhouse, slug: block,                  tier: 1, group: fintech}
+- {name: Brex,                  ats: greenhouse, slug: brex,                   tier: 2, group: fintech}
+- {name: Mercury,               ats: greenhouse, slug: mercury,                tier: 2, group: fintech}
+- {name: Chime,                 ats: greenhouse, slug: chime,                  tier: 2, group: fintech}
+- {name: Affirm,                ats: greenhouse, slug: affirm,                 tier: 2, group: fintech}
+- {name: SoFi,                  ats: greenhouse, slug: sofi,                   tier: 2, group: fintech}
+- {name: Carta,                 ats: greenhouse, slug: carta,                  tier: 2, group: fintech}
+- {name: Adyen,                 ats: greenhouse, slug: adyen,                  tier: 2, group: fintech}
+- {name: Marqeta,               ats: greenhouse, slug: marqeta,                tier: 3, group: fintech}
+- {name: Lithic,                ats: greenhouse, slug: lithic,                 tier: 3, group: fintech}
+- {name: Modern Treasury,       ats: ashby,      slug: moderntreasury,         tier: 2, group: fintech}
+- {name: Unit,                  ats: ashby,      slug: unit,                   tier: 3, group: fintech}
+- {name: Betterment,            ats: greenhouse, slug: betterment,             tier: 3, group: fintech}
+- {name: Wealthfront,           ats: lever,      slug: wealthfront,            tier: 3, group: fintech}
+- {name: Gemini,                ats: greenhouse, slug: gemini,                 tier: 2, group: fintech}
+- {name: Ripple,                ats: greenhouse, slug: ripple,                 tier: 2, group: fintech}
+- {name: Fireblocks,            ats: greenhouse, slug: fireblocks,             tier: 3, group: fintech}
+- {name: Uniswap Labs,          ats: ashby,      slug: uniswap,                tier: 3, group: fintech}
+- {name: Alchemy,               ats: ashby,      slug: alchemy,                tier: 3, group: fintech}
+- {name: Anchorage Digital,     ats: lever,      slug: anchorage,              tier: 3, group: fintech}
+- {name: Paradigm,              ats: ashby,      slug: paradigm,               tier: 3, group: fintech}
+- {name: Nubank,                ats: greenhouse, slug: nubank,                 tier: 2, group: fintech}  # also live on ashby "nubank"
+
+# ── Big tech & major software ───────────────────────────────────────
+- {name: Airbnb,                ats: greenhouse, slug: airbnb,                 tier: 1, group: software}
+- {name: Databricks,            ats: greenhouse, slug: databricks,             tier: 1, group: software}
+- {name: Snowflake,             ats: ashby,      slug: snowflake,              tier: 1, group: software}
+- {name: Figma,                 ats: greenhouse, slug: figma,                  tier: 1, group: software}
+- {name: Notion,                ats: ashby,      slug: notion,                 tier: 1, group: software}
+- {name: Datadog,               ats: greenhouse, slug: datadog,                tier: 1, group: software}
+- {name: Cloudflare,            ats: greenhouse, slug: cloudflare,             tier: 1, group: software}
+- {name: Reddit,                ats: greenhouse, slug: reddit,                 tier: 1, group: software}
+- {name: Discord,               ats: greenhouse, slug: discord,                tier: 1, group: software}
+- {name: Roblox,                ats: greenhouse, slug: roblox,                 tier: 1, group: software}
+- {name: Pinterest,             ats: greenhouse, slug: pinterest,              tier: 2, group: software}
+- {name: DoorDash,              ats: greenhouse, slug: doordashusa,            tier: 2, group: software}
+- {name: Instacart,             ats: greenhouse, slug: instacart,              tier: 2, group: software}
+- {name: Lyft,                  ats: greenhouse, slug: lyft,                   tier: 2, group: software}
+- {name: Twitch,                ats: greenhouse, slug: twitch,                 tier: 2, group: software}
+- {name: Dropbox,               ats: greenhouse, slug: dropbox,                tier: 2, group: software}
+- {name: MongoDB,               ats: greenhouse, slug: mongodb,                tier: 2, group: software}
+- {name: Elastic,               ats: greenhouse, slug: elastic,                tier: 2, group: software}
+- {name: GitLab,                ats: greenhouse, slug: gitlab,                 tier: 2, group: software}
+- {name: Twilio,                ats: greenhouse, slug: twilio,                 tier: 2, group: software}
+- {name: Okta,                  ats: greenhouse, slug: okta,                   tier: 2, group: software}
+- {name: Zscaler,               ats: greenhouse, slug: zscaler,                tier: 2, group: software}
+- {name: SentinelOne,           ats: greenhouse, slug: sentinellabs,           tier: 2, group: software}
+- {name: Rubrik,                ats: greenhouse, slug: rubrik,                 tier: 2, group: software}
+- {name: Wiz,                   ats: ashby,      slug: wiz,                    tier: 2, group: software}  # board live, 0 public postings today
+- {name: Samsara,               ats: greenhouse, slug: samsara,                tier: 2, group: software}
+- {name: Verkada,               ats: greenhouse, slug: verkada,                tier: 2, group: software}
+- {name: Toast,                 ats: greenhouse, slug: toast,                  tier: 2, group: software}
+- {name: Gusto,                 ats: greenhouse, slug: gusto,                  tier: 2, group: software}
+- {name: Asana,                 ats: greenhouse, slug: asana,                  tier: 2, group: software}
+- {name: Airtable,              ats: greenhouse, slug: airtable,               tier: 2, group: software}
+- {name: Miro,                  ats: ashby,      slug: miro,                   tier: 2, group: software}
+- {name: Squarespace,           ats: greenhouse, slug: squarespace,            tier: 3, group: software}
+- {name: Vercel,                ats: greenhouse, slug: vercel,                 tier: 2, group: software}
+- {name: Netlify,               ats: greenhouse, slug: netlify,                tier: 3, group: software}
+- {name: Supabase,              ats: ashby,      slug: supabase,               tier: 2, group: software}
+- {name: PostHog,               ats: ashby,      slug: posthog,                tier: 3, group: software}
+- {name: Temporal,              ats: greenhouse, slug: temporaltechnologies,   tier: 3, group: software}
+- {name: Tailscale,             ats: greenhouse, slug: tailscale,              tier: 2, group: software}
+- {name: Linear,                ats: ashby,      slug: linear,                 tier: 2, group: software}
+- {name: Rippling,              ats: rippling,   slug: rippling,               tier: 2, group: software}
+- {name: Uber,                  ats: uber,       slug: uber,                   tier: 2, group: software}
+- {name: Replit,                ats: ashby,      slug: replit,                 tier: 2, group: software}
+- {name: Zip,                   ats: ashby,      slug: zip,                    tier: 3, group: software}
+- {name: Attentive,             ats: greenhouse, slug: attentive,              tier: 3, group: software}
+- {name: Faire,                 ats: greenhouse, slug: faire,                  tier: 3, group: software}
+- {name: Flexport,              ats: greenhouse, slug: flexport,               tier: 3, group: software}
+- {name: Fastly,                ats: greenhouse, slug: fastly,                 tier: 3, group: software}
+- {name: Navan,                 ats: greenhouse, slug: tripactions,            tier: 3, group: software}
+- {name: Benchling,             ats: ashby,      slug: benchling,              tier: 3, group: software}
+- {name: Palantir,              ats: lever,      slug: palantir,               tier: 1, group: software}
+- {name: Spotify,               ats: lever,      slug: spotify,                tier: 1, group: software}
+- {name: ServiceNow,            ats: smartrecruiters, slug: servicenow,        tier: 2, group: software}
+- {name: Canva,                 ats: smartrecruiters, slug: canva,             tier: 2, group: software}
+- {name: Visa,                  ats: smartrecruiters, slug: visa,              tier: 3, group: software}  # only a few public postings; main volume on own site
+- {name: Glean,                 ats: smartrecruiters, slug: glean,             tier: 3, group: software}
+
+# ── Gaming & entertainment (public boards) ──────────────────────────
+- {name: Epic Games,            ats: greenhouse, slug: epicgames,              tier: 1, group: entertainment}
+- {name: Riot Games,            ats: greenhouse, slug: riotgames,              tier: 1, group: entertainment}
+- {name: Rockstar Games,        ats: greenhouse, slug: rockstargames,          tier: 2, group: entertainment}
+- {name: Take-Two,              ats: greenhouse, slug: taketwo,                tier: 2, group: entertainment}
+- {name: Roku,                  ats: greenhouse, slug: roku,                   tier: 2, group: entertainment}
+- {name: The New York Times,    ats: greenhouse, slug: thenewyorktimes,        tier: 2, group: entertainment}
+- {name: Axios,                 ats: greenhouse, slug: axios,                  tier: 3, group: entertainment}
+- {name: Vox Media,             ats: greenhouse, slug: voxmedia,               tier: 3, group: entertainment}
+- {name: Niantic,               ats: ashby,      slug: niantic,                tier: 3, group: entertainment}  # board live, 0 public postings today
+
+# ── Autonomy, aerospace, defense, robotics ──────────────────────────
+- {name: SpaceX,                ats: greenhouse, slug: spacex,                 tier: 1, group: aero}
+- {name: Anduril,               ats: greenhouse, slug: andurilindustries,      tier: 1, group: aero}
+- {name: Waymo,                 ats: greenhouse, slug: waymo,                  tier: 1, group: aero}
+- {name: Neuralink,             ats: greenhouse, slug: neuralink,              tier: 1, group: aero}
+- {name: Zoox,                  ats: lever,      slug: zoox,                   tier: 1, group: aero}
+- {name: Shield AI,             ats: lever,      slug: shieldai,               tier: 2, group: aero}
+- {name: Nuro,                  ats: greenhouse, slug: nuro,                   tier: 2, group: aero}
+- {name: Aurora,                ats: greenhouse, slug: aurorainnovation,       tier: 2, group: aero}
+- {name: Kodiak Robotics,       ats: greenhouse, slug: kodiak,                 tier: 3, group: aero}
+- {name: Skydio,                ats: ashby,      slug: skydio,                 tier: 2, group: aero}
+- {name: Saronic,               ats: ashby,      slug: saronic,                tier: 2, group: aero}
+- {name: Rocket Lab,            ats: greenhouse, slug: rocketlab,              tier: 2, group: aero}
+- {name: Relativity Space,      ats: greenhouse, slug: relativity,             tier: 2, group: aero}
+- {name: Astranis,              ats: greenhouse, slug: astranis,               tier: 2, group: aero}
+- {name: Varda,                 ats: greenhouse, slug: vardaspace,             tier: 2, group: aero}
+- {name: Zipline,               ats: greenhouse, slug: flyzipline,             tier: 3, group: aero}
+- {name: Hermeus,               ats: lever,      slug: hermeus,                tier: 3, group: aero}
+- {name: Boom Supersonic,       ats: ashby,      slug: boom,                   tier: 3, group: aero}
+- {name: Epirus,                ats: greenhouse, slug: epirus,                 tier: 3, group: aero}
+
+# ── Health tech ─────────────────────────────────────────────────────
+- {name: Oscar Health,          ats: greenhouse, slug: oscar,                  tier: 3, group: health}
+- {name: Komodo Health,         ats: greenhouse, slug: komodohealth,           tier: 3, group: health}
+- {name: Ro,                    ats: lever,      slug: ro,                     tier: 3, group: health}
+- {name: Cedar,                 ats: ashby,      slug: cedar,                  tier: 3, group: health}
+
+# ── Workday (M4) — tenant/instance/site verified live 2026-07-08 via the CXS
+#    endpoint (searchText=internship returned >0). Coords mined from Simplify's
+#    Workday URLs. Dropped Dell/Workday/GDIT/Activision (0 public intern results).
+#    To add more: find any job URL on the careers page —
+#    https://{tenant}.{instance}.myworkdayjobs.com/en-US/{site}/job/... —
+#    then `verify --only <slug>`.
+# Chips & hardware
+- {name: NVIDIA,              ats: workday, slug: nvidia,        tier: 2, group: chips,        workday: {tenant: nvidia,        instance: wd5,   site: NVIDIAExternalCareerSite}}
+- {name: Intel,              ats: workday, slug: intel,          tier: 2, group: chips,        workday: {tenant: intel,         instance: wd1,   site: external}}
+- {name: Micron,            ats: workday, slug: micron,          tier: 2, group: chips,        workday: {tenant: micron,        instance: wd1,   site: External}}
+- {name: Marvell,           ats: workday, slug: marvell,         tier: 2, group: chips,        workday: {tenant: marvell,       instance: wd1,   site: MarvellCareers2}}
+- {name: Analog Devices,    ats: workday, slug: analogdevices,   tier: 2, group: chips,        workday: {tenant: analogdevices, instance: wd1,   site: External}}
+- {name: HP,                ats: workday, slug: hp,               tier: 3, group: chips,        workday: {tenant: hp,            instance: wd5,   site: EXTEU-AC-CareerSite}}
+- {name: HPE,               ats: workday, slug: hpe,              tier: 3, group: chips,        workday: {tenant: hpe,           instance: wd5,   site: Jobsathpe}}
+# Enterprise software
+- {name: Snap,              ats: workday, slug: snap,             tier: 2, group: software,     workday: {tenant: snapchat,      instance: wd1,   site: snap, search: intern}}
+- {name: Adobe,             ats: workday, slug: adobe,            tier: 2, group: software,     workday: {tenant: adobe,         instance: wd5,   site: external_experienced}}
+- {name: Salesforce,        ats: workday, slug: salesforce,       tier: 2, group: software,     workday: {tenant: salesforce,    instance: wd12,  site: External_Career_Site}}
+- {name: CrowdStrike,       ats: workday, slug: crowdstrike-wd,   tier: 2, group: software,     workday: {tenant: crowdstrike,   instance: wd5,   site: crowdstrikecareers}}
+# Banks & finance
+- {name: Capital One,       ats: workday, slug: capitalone,       tier: 3, group: banks,        workday: {tenant: capitalone,    instance: wd12,  site: Capital_One}}
+- {name: BlackRock,         ats: workday, slug: blackrock,        tier: 3, group: banks,        workday: {tenant: blackrock,     instance: wd1,   site: BlackRock_Professional}}
+- {name: Fidelity,          ats: workday, slug: fidelity,         tier: 3, group: banks,        workday: {tenant: fmr,           instance: wd1,   site: targeted}}
+- {name: State Street,      ats: workday, slug: statestreet,      tier: 3, group: banks,        workday: {tenant: statestreet,   instance: wd1,   site: Global}}
+- {name: PNC,               ats: workday, slug: pnc,              tier: 3, group: banks,        workday: {tenant: pnc,           instance: wd5,   site: External}}
+- {name: Truist,            ats: workday, slug: truist,           tier: 3, group: banks,        workday: {tenant: truist,        instance: wd1,   site: Careers}}
+- {name: Vanguard,          ats: workday, slug: vanguard,         tier: 3, group: banks,        workday: {tenant: vanguard,      instance: wd5,   site: contractors_restricted}}
+- {name: Nasdaq,            ats: workday, slug: nasdaq,           tier: 3, group: banks,        workday: {tenant: nasdaq,        instance: wd1,   site: Global_External_Site}}
+- {name: CME Group,         ats: workday, slug: cmegroup,         tier: 3, group: banks,        workday: {tenant: cmegroup,      instance: wd1,   site: cme_careers}}
+- {name: S&P Global,        ats: workday, slug: spgi,             tier: 3, group: banks,        workday: {tenant: spgi,          instance: wd5,   site: SPGI_Careers}}
+- {name: FactSet,           ats: workday, slug: factset,          tier: 3, group: banks,        workday: {tenant: factset,       instance: wd108, site: FactSetCareers}}
+- {name: Freddie Mac,       ats: workday, slug: freddiemac,       tier: 3, group: banks,        workday: {tenant: freddiemac,    instance: wd5,   site: External}}
+- {name: Mastercard,        ats: workday, slug: mastercard,       tier: 3, group: banks,        workday: {tenant: mastercard,    instance: wd1,   site: CorporateCareers}}
+- {name: PayPal,            ats: workday, slug: paypal,           tier: 3, group: banks,        workday: {tenant: paypal,        instance: wd1,   site: jobs}}
+# Entertainment & media
+- {name: Disney,            ats: workday, slug: disney,           tier: 2, group: entertainment, workday: {tenant: disney,        instance: wd5,   site: disneycareer}}
+- {name: Comcast/NBCU,      ats: workday, slug: comcast,          tier: 2, group: entertainment, workday: {tenant: comcast,       instance: wd5,   site: Comcast_Careers}}
+- {name: Warner Bros. Discovery, ats: workday, slug: warnerbros,  tier: 2, group: entertainment, workday: {tenant: warnerbros,    instance: wd5,   site: global}}
+- {name: Sony,              ats: workday, slug: sonyglobal,        tier: 3, group: entertainment, workday: {tenant: sonyglobal,    instance: wd1,   site: SonyGlobalCareers}}
+- {name: Sony Pictures,     ats: workday, slug: sonypictures,      tier: 3, group: entertainment, workday: {tenant: spe,           instance: wd1,   site: SonyPicturesEntertainment}}
+- {name: Live Nation,       ats: workday, slug: livenation,        tier: 3, group: entertainment, workday: {tenant: livenation,    instance: wd503, site: LNExternalSite}}
+# Defense & aerospace primes
+- {name: Northrop Grumman,  ats: workday, slug: northrop,         tier: 3, group: aero,         workday: {tenant: ngc,           instance: wd1,   site: Northrop_Grumman_External_Site}}
+- {name: Leidos,            ats: workday, slug: leidos,           tier: 3, group: aero,         workday: {tenant: leidos,        instance: wd5,   site: External}}
+- {name: Booz Allen,        ats: workday, slug: bah,              tier: 3, group: aero,         workday: {tenant: bah,           instance: wd1,   site: bah_jobs}}
+- {name: RTX,               ats: workday, slug: rtx,              tier: 3, group: aero,         workday: {tenant: globalhr,      instance: wd5,   site: rec_rtx_ext_gateway}}
+# Consulting & other big employers
+- {name: Accenture,         ats: workday, slug: accenture,        tier: 3, group: consulting,   workday: {tenant: accenture,     instance: wd103, site: AccentureCareers}}
+- {name: Expedia,           ats: workday, slug: expedia,          tier: 3, group: software,     workday: {tenant: expedia,       instance: wd108, site: private}}
+- {name: Zillow,            ats: workday, slug: zillow,           tier: 3, group: software,     workday: {tenant: zillow,        instance: wd5,   site: Zillow_Group_External}}
+- {name: Target,            ats: workday, slug: target,           tier: 3, group: software,     workday: {tenant: target,        instance: wd5,   site: targetcareers}}
+
+# ── Custom career sites (M5) — bespoke public APIs, verified 2026-07-08
+#    (big-tech/finance batch added + verified 2026-07-13). Only Tesla and TikTok
+#    remain intentionally omitted (hard bot walls) — the Simplify/vanshb03
+#    aggregators cover them at ~hourly latency.
+- {name: Amazon,             ats: amazon,  slug: amazon,   tier: 1, group: software}
+- {name: Netflix,            ats: netflix, slug: netflix,  tier: 2, group: entertainment}
+- {name: Goldman Sachs,      ats: goldman, slug: goldman,  tier: 2, group: banks}
+- {name: Bloomberg,          ats: bloomberg, slug: bloomberg, tier: 2, group: entertainment}
+- {name: Shopify,            ats: shopify, slug: shopify,  tier: 2, group: software}
+- {name: Microsoft,          ats: microsoft, slug: microsoft, tier: 1, group: software}
+- {name: Google,             ats: google,  slug: google,   tier: 1, group: software}
+- {name: Apple,              ats: apple,   slug: apple,    tier: 1, group: software}
+- {name: Meta,               ats: meta,    slug: meta,     tier: 1, group: software}
+# Oracle Recruiting Cloud (banks). Add more with orc:{tenant, site} from the
+# careers URL: {tenant}.fa.oraclecloud.com/.../sites/{site}/job/...
+- {name: JPMorgan Chase,     ats: oracle,  slug: jpmc,     tier: 3, group: banks, orc: {tenant: jpmc, site: CX_1001}}
